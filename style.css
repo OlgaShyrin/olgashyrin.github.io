@@ -1,44 +1,42 @@
-body{
-	background-color: grey;
+body {
+  background-color: grey;
 	}
 
-.list{
-	background-color: white;
+.list {
+	margin: auto;
 	width: 600px;
 	height: 800px;
-	margin-left: 30%;
-  padding-top: 1%;
+	background-color: white;
 	line-height: 170%;
-	text-align: ;
 }
 
-ul{
+ul {
 	margin-left: 5%;
 }
 
-img{
+img {
 	width: 150px;
 	display: block;
 	margin: auto;
 }
 
-h3{
+h3 {
 	text-align: center;
 }
-h4{
+h4 {
 	text-align: center;
 }
 
-span{
+span {
 	color: orange;
 }
 
-p{
+p {
 	margin-left: 10%;
 	text-align:left;
 	font-size: 16px;
 }
 
-hr{
+hr {
 	width: 80%;
 }
