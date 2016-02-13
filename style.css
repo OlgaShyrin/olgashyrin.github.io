@@ -1,0 +1,44 @@
+body{
+	background-color: grey;
+	}
+
+.list{
+	background-color: white;
+	width: 600px;
+	height: 800px;
+	margin-left: 30%;
+  padding-top: 1%;
+	line-height: 170%;
+	text-align: ;
+}
+
+ul{
+	margin-left: 5%;
+}
+
+img{
+	width: 150px;
+	display: block;
+	margin: auto;
+}
+
+h3{
+	text-align: center;
+}
+h4{
+	text-align: center;
+}
+
+span{
+	color: orange;
+}
+
+p{
+	margin-left: 10%;
+	text-align:left;
+	font-size: 16px;
+}
+
+hr{
+	width: 80%;
+}
