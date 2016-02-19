@@ -1,0 +1,125 @@
+body{
+  background-color: white;
+}
+.wrapper{
+  width: 1062px;
+  height: 850px;
+  margin: 0 auto;
+  background-color: white;
+  box-shadow: 7px 0 15px -4px rgba(31, 73, 125, 0.3),
+              -7px 0 8px -4px rgba(31, 73, 125, 0.3);
+  }
+.header{
+  width: 970px;
+  height: auto;
+  padding-top: 30px;
+  margin: 0 auto;
+  }
+.logo{
+  width: 145px;
+  height: 40px;
+  background-image: url(../img/logo.png);
+  }
+.menu{
+  width: 970px;
+  margin: 0 auto;
+  margin-top: 20px;
+  background: linear-gradient(to top, #444343, #5e5e5e);
+  }
+.menu ul{
+  font-size: 0;
+  line-height: 0;
+  letter-spacing: -1px;
+  }
+.menu ul li{
+  padding: 15px 30px;
+  line-height: normal;
+  letter-spacing: normal;
+  display: -moz-inline-stack!important;
+  display: inline-block;
+  //display: inline;
+  zoom:1;
+  font-size: 11pt;
+  text-shadow: 0px 1px 1px rgba(150, 150, 150, 0.5);
+  color: white;
+  font-family: "Open Sans";
+  }
+.menu ul li:hover{
+  background: linear-gradient(to top, #2e2e2e, #4a4a4a);
+  box-shadow: 1px 0 0px 0px rgba(131, 131, 131, 1),
+              -1px 0 0px 0px rgba(131, 131, 131, 1);
+  }
+.left_menu{
+  width: 200px;
+  float: left;
+  margin-left: 45px;
+  margin-top: 35px;
+  border-top: 1px solid #c8c8c8;
+  border-left: 1px solid #c8c8c8;
+  border-right: 1px solid #c8c8c8;
+  }
+.left_menu ul li{
+  padding: 10px;
+  font-size: 10pt;
+  font-family: "Open Sans";
+  color: #656363;
+  border-bottom: 1px solid #c8c8c8;
+  }
+.left_menu ul li:hover{
+  padding-left: 20px;
+  background-color: #f9f9f9;
+  }
+.content{
+  float: right;
+  width: 630px;
+  height: 400px;
+  margin-top: 35px;
+  margin-right: 45px;
+  border: 1px solid #c8c8c8;
+  }
+.image{
+  width:500px;
+  height: 307px;
+  margin: 45px 0px 45px 65px;
+  background-image: url(../img/bike.png);
+  }
+.about{
+  margin-top: 70px;
+  padding: 0px 20px 0px 20px;
+  color:#2c2c2c;
+  font-size: 10pt;
+  font-family: "Open Sans";
+  line-height: 150%;
+  }
+.footer{
+  width: 970px;
+  height: 40px;
+  margin: 0 auto;
+  margin-top: 650px;
+  background-color: #e1e1e1;
+  }
+.footer ul{
+  font-size: 0;
+  line-height: 0;
+  letter-spacing: -1px;
+  }
+.footer ul li{
+  float: left;
+  padding: 10px 60px 10px 20px;
+  line-height: normal;
+  letter-spacing: normal;
+  display: -moz-inline-stack!important;
+  display: inline-block;
+  //display: inline;
+  zoom:1;
+  font-size: 10pt;
+  color: #2c2c2c;
+  font-family: "Open Sans";
+  }
+.footer ul li.avtor{
+  float: right;
+  padding-right: 20px;
+  }
+.footer ul li:hover{
+  text-decoration: underline;
+  }
