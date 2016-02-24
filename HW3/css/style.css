@@ -118,7 +118,7 @@ body{
   line-height: 0;
   letter-spacing: -1px;
   }
-.footer ul li{
+.footer ul a{
   float: left;
   padding: 10px 60px 10px 20px;
   line-height: normal;
@@ -134,7 +134,13 @@ body{
 .footer ul li.avtor{
   float: right;
   padding-right: 20px;
+  padding-top: 20px;
+  text-decoration: none;
+  font-size: 10pt;
+  color: #2c2c2c;
+  font-family: "Open Sans";
+
   }
-.footer ul li:hover{
+.footer ul a:hover{
   text-decoration: underline;
-  }
+}
