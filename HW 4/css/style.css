@@ -1,17 +1,23 @@
 body{
   background: url(../img/background.png) repeat-x #0c739f;
-  min-height: 1500px;
 }
-.wrapper{
+#mainbox{
   position: relative;
+  display: block;
   top: 25px;
   margin: auto;
   overflow: hidden;
   width: 1000px;
-  max-height: 1000px;
+  height: 100%;
   background-color: white;
-  box-shadow: 4px 7px 5px 0px rgba(12,106,129,0.75),
-              -4px 7px 5px 0px rgba(12,106,129,0.75);
+  box-shadow: 4px 7px 10px 0px rgba(12,106,129,1),
+              -4px 7px 10px 0px rgba(12,106,129,1);
+}
+.clearfix:after{
+  content: "";
+  visibility: hidden;
+  display: block;
+  clear: both;
 }
 h5.logo a{
   display: block;
@@ -31,6 +37,11 @@ h5.logo a{
   margin: 10px 45px 0px 0px;
   font: 10pt "Tahoma";
   color: #128aa7;
+}
+.contakts a{
+  font: 10pt "Tahoma";
+  color: #128aa7;
+  text-decoration: none;
 }
 strong{
   font-weight: bold;
@@ -192,16 +203,16 @@ strong{
   border: 0;
 }
 .menu li:hover ul li a:hover{
-  background-color: : #323232;
+  background-color: #323232;
   text-decoration: none;
 }
 .left_box{
-  width: 215px;
+  width: 200px;
   float: left;
   padding-left: 15px;
   padding-right: 15px;
   padding-bottom: 20000px;
-  margin-bottom: 20000px;
+  margin-bottom: -20000px;
   text-align: justify;
   border-left: 1px solid #c7cacf;
   border-right: 1px solid #c7cacf;
@@ -209,29 +220,36 @@ strong{
   color: #424c43;
   font: 14px 'Tahoma';
   line-height: 20px;
-  letter-spacing: 0,5px;
+  letter-spacing: 1px;
 }
 .center{
   width: 500px;
   float: left;
   padding-bottom: 20000px;
-  margin-bottom: 20000px;
+  margin-bottom: -20000px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: justify;
+  color: #424c43;
+  font: 14px 'Tahoma';
+  line-height: 20px;
+  letter-spacing: 1px;
 }
 .right_box{
-  width: 221px;
-  float: left;
+  width: 200px;
+  float: right;
   background: #edeef0;
   padding-left: 15px;
   padding-right: 15px;
   padding-bottom: 20000px;
-  margin-bottom: 20000px;
+  margin-bottom: -20000px;
   border-left: 1px solid #c7cacf;
   border-right: 1px solid #c7cacf;
   text-align: justify;
   color: #424c43;
   font: 14px 'Tahoma';
   line-height: 20px;
-  letter-spacing: 0,5px;
+  letter-spacing: 1px;
 }
 h2{
   font: bold 15px 'Tahoma';
@@ -240,10 +258,17 @@ h2{
   padding-bottom: 10px;
   padding-top: 15px;
 }
-.copyright{
-  position: absolute;
-  top: 1050px;
-  left: 660px;
+#footer{
+  position: relative;
+  display: inline-block;
+  margin-left: 670px;
+  margin-top: 55px;
+  margin-bottom: 10px;
   color: white;
   font: 10pt 'Tahoma';
+}
+#footer a{
+  color: white;
+  font: 10pt 'Tahoma';
+  text-decoration: none;
 }
