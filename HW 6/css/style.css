@@ -1,0 +1,1417 @@
+
+@font-face {
+    font-family: "lucida_sans_unicode_regular";
+    src: url('../fonts/lucida_sans_unicode_regular-webfont.eot');
+    src: url('../fonts/lucida_sans_unicode_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lucida_sans_unicode_regular-webfont.woff2') format('woff2'),
+         url('../fonts/lucida_sans_unicode_regular-webfont.woff') format('woff'),
+         url('../fonts/lucida_sans_unicode_regular-webfont.ttf') format('truetype'),
+         url('../fonts/lucida_sans_unicode_regular-webfont.svg#lucida_sans_unicoderegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.wrapper{
+  width: 1000px;
+  margin: 0 auto;
+}
+header{
+  margin-top: 20px;
+  width: 908px;
+  height: 274px;
+}
+.phone{
+  display: block;
+  float: left;
+}
+.phone img{
+  display: block;
+  float: left;
+  width: 23px;
+  height: 22px;
+  margin-left: 6px;
+}
+.number{
+  position: absolute;
+  float: left;
+  font-size: 19px;
+  font-family: "Arial";
+  color: rgb( 94, 105, 109 );
+  line-height: 1;
+  text-align: center;
+}
+.phone .number{
+  margin-right: 5px;
+  margin-left: 30px;
+}
+.avtoriz{
+  position: absolute;
+  float: left;
+  margin-left: 312px;
+  margin-top: -5px;
+  width: 495px;
+  height: 25px;
+  background: linear-gradient(to bottom, rgba(32,105,136,1) 0%, rgba(17,65,101,1) 59%, rgba(12,50,86,1) 100%);
+  border-radius: 3px;
+  box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.55);
+  font-size: 12px;
+  font-family: "Lucida Sans Unicode";
+  color: rgb( 255, 255, 255 );
+}
+.avtoriz input{
+  display: block;
+  float: left;
+  margin-top: 4px;
+  margin-left: 5px;
+  margin-right: 3px;
+  margin-bottom: 5px;
+  width: 113px;
+  height: 15px;
+  border: 0px;
+  line-height: 1.3;
+  font-size: 11px;
+  font-family: "Lucida Sans Unicode";
+  color: rgb( 151, 162, 166 );
+  text-align: left;
+}
+.logo{
+  display: block;
+  float: left;
+  margin-left: 7px;
+  margin-right: 0px;
+  margin-top: 4px;
+  margin-bottom: 2px;
+  width: 14px;
+  height: 18px;
+}
+.avtoriz a{
+  display: inline-block;
+  margin-top: 6px;
+  margin-left: 0px;
+  margin-bottom: 8px;
+  text-decoration: none;
+  font-family: "Lucida Sans Unicode";
+  font-size: 10.5px;
+  color: rgb( 255, 255, 255 );
+  letter-spacing: 0px;
+}
+.avtoriz a span{
+  display: inline-block;
+  margin-left: 15px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  color: rgb( 191, 191, 191 );
+  text-decoration: underline;
+  line-height: 1.2;
+  letter-spacing: 0px;
+}
+.navi{
+  position: absolute;
+  float: left;
+  width: 76px;
+  height: 20px;
+  margin-left: 825px;
+  margin-top: -5px;
+  border: 1px solid #bdc4c7;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 1px 1px 3px 0px rgba(188, 195, 198, 0.52),
+              -1px 1px 3px 0px rgba(188, 195, 198, 0.52);
+}
+.navi a img{
+  display: inline-block;
+  float: left;
+  margin-left: 5px;
+  margin-top: 3px;
+}
+.baner{
+  position: absolute;
+  display: block;
+  margin-top: 30px;
+  width: 909px;
+  height: 237px;
+  background-image: url(../img/baner.png);
+}
+nav{
+  position: relative;
+  width: 909px;
+  height: 30px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  background: linear-gradient(to bottom, rgba(87,96,104,1) 0%, rgba(3,3,3,1) 66%, rgba(3,3,3,1) 100%);
+  border: 1px solid #0d1642;
+  border-radius: 5px;
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.75);
+}
+nav ul{
+  margin-left: 110px;
+  margin-top: 2px;
+}
+nav ul li{
+  display: block;
+  float: left;
+}
+nav ul li a{
+  padding-left: 7px;
+  padding-right: 5px;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 13.5px;
+  font-family: "Lucida Sans Unicode";
+  color: rgb( 177, 188, 192 );
+  margin-left: 20px;
+  line-height: 1.867;
+  text-transform: uppercase;
+  letter-spacing: 0;
+}
+nav ul li a:hover{
+  padding-left: 7px;
+  padding-right: 5px;
+  border-radius: 10px;
+  background: linear-gradient(0deg, rgb(32, 105, 136) 0%, rgb(12, 50, 86) 100%);
+}
+.shopping {
+  position: absolute;
+  margin-top: 0px;
+  margin-left: 655px;
+  font-size: 11px;
+  font-family: "Arial";
+  color: rgb( 146, 155, 159 );
+}
+.shopping .allgoods{
+  display: inline;
+  margin-left: 5px;
+  line-height: 2;
+  font-size: 12px;
+  font-family: "Arial";
+}
+.shopping span{
+  font-size: 12px;
+  font-family: "Arial";
+  color: rgb( 13, 90, 143 );
+  font-weight: bold;
+}
+.shopping a img{
+  display: block;
+  float: left;
+  margin-left: 25px;
+  margin-top: 3px;
+}
+/*Первая форма*/
+.find_cars{
+  position: relative;
+  float: left;
+  margin-top: -5px;
+  margin-left: 2px;
+  width: 414px;
+  height: 132px;
+  padding: 0px;
+  border: 1px solid #9c9c9d;
+  border-radius: 20px;
+  box-shadow: 4px 3px 5px 0px rgba(104, 104, 104, 0.5);
+}
+.find_cars form input.search{
+  position: absolute;
+  top: 109px;
+  left:342px;
+}
+.find_cars form{
+  font-size: 10px;
+  font-family: "Arial";
+  color: rgb( 0, 0, 0 );
+  font-weight: 500;
+  line-height: 1;
+}
+.find_cars form span{
+  font-size: 8px;
+  font-family: "Arial";
+  color: #77858b;
+  letter-spacing: 0.5px;
+}
+.find_cars form legend{
+  display: inline;
+  margin-top: -2px;
+  margin-bottom: 5px;
+}
+.find_cars form legend h3{
+  display: inline;
+  margin-left: 65px;
+  margin-right: 50px;
+  color: rgb( 21, 68, 103 );
+  font-size: 12px;
+  font-family: "Arial";
+  font-weight: 900;
+}
+.find_cars form legend p{
+  display: inline-block;
+  margin-top: 3px;
+  margin-left: 23px;
+  margin-right: 0px;
+  color: #154467;
+  font-family: "Arial";
+  font-weight: 900;
+}
+.find_cars form select{
+  margin-bottom: 2px;
+}
+/*Стилизация select*/
+.disk select.mk{
+  margin-left: 0px;
+  width: 100px;
+  height: 17px;
+  line-height: 17px;
+  position: relative;
+  background: none;
+  border: none;
+  z-index: 100;
+}
+.select{
+  border-top: 2px solid #9f9f9f;
+  border-left: 2px solid #9f9f9f;
+  background: white;
+  width: 100px;
+  margin-left: 20px;
+  overflow: hidden;
+  display: inline-block;
+  position: relative;
+}
+.select_button{
+  background: url(../img/select.png) center center no-repeat;
+  width: 19px;
+  height: 15px;
+  position: absolute;
+  right: -1px;
+  top: 0;
+  bottom: 0;
+  z-index: 100;
+}
+.disk select.year{
+  margin-left: 0px;
+  width: 57px;
+  height: 17px;
+  line-height: 17px;
+  position: relative;
+  background: none;
+  border: none;
+  z-index: 100;
+}
+.select_year{
+  border-top: 2px solid #9f9f9f;
+  border-left: 2px solid #9f9f9f;
+  background: white;
+  width: 57px;
+  margin-left: 18px;
+  overflow: hidden;
+  display: inline-block;
+  position: relative;
+}
+.disk select.complectation{
+  margin-left: 0px;
+  width: 100px;
+  height: 17px;
+  line-height: 17px;
+  position: relative;
+  background: none;
+  border: none;
+  z-index: 100;
+}
+.select_complectation{
+  border-top: 2px solid #9f9f9f;
+  border-left: 2px solid #9f9f9f;
+  background: white;
+  width: 100px;
+  margin-left: 3px;
+  overflow: hidden;
+  display: inline-block;
+  position: relative;
+}
+.disk{
+  position: absolute;
+  float: left;
+  margin-left: 20px;
+}
+.disk p.mark{
+  float: left;
+  font-size: 10px;
+  font-family: "Arial";
+  color: rgb( 0, 0, 0 );
+  line-height: 2.5;
+}
+.disk p.model{
+  clear: both;
+  float: left;
+  margin-top: -3px;
+  font-size: 10px;
+  font-family: "Arial";
+  color: rgb( 0, 0, 0 );
+}
+.disk p.year{
+  clear: both;
+  float: left;
+  font-size: 10px;
+  font-family: "Arial";
+  color: rgb( 0, 0, 0 );
+  line-height: 0.8;
+}
+.disk p.complectation{
+  clear: both;
+  float: left;
+  font-size: 10px;
+  font-family: "Arial";
+  color: rgb( 0, 0, 0 );
+  line-height: 2;
+}
+/*Выравнивание первой формы поиск по шинам*/
+.tires select.mk{
+  margin-left: 0px;
+  width: 100px;
+  height: 17px;
+  line-height: 17px;
+  position: relative;
+  background: none;
+  border: none;
+  z-index: 100;
+}
+.tires select.year{
+  margin-left: 0px;
+  width: 57px;
+  height: 17px;
+  line-height: 17px;
+  position: relative;
+  background: none;
+  border: none;
+  z-index: 100;
+}
+.tires select.complectation{
+  margin-left: 0px;
+  width: 100px;
+  height: 17px;
+  line-height: 17px;
+  position: relative;
+  background: none;
+  border: none;
+  z-index: 100;
+}
+.tires{
+  position: absolute;
+  float: left;
+  margin-left: 223px;
+}
+.tires p.mark{
+  float: left;
+  font-size: 10px;
+  font-family: "Arial";
+  color: rgb( 0, 0, 0 );
+  line-height: 2.5;
+}
+.tires p.model{
+  clear: both;
+  float: left;
+  margin-top: -3px;
+  font-size: 10px;
+  font-family: "Arial";
+  color: rgb( 0, 0, 0 );
+}
+.tires p.year{
+  clear: both;
+  float: left;
+  font-size: 10px;
+  font-family: "Arial";
+  color: rgb( 0, 0, 0 );
+  line-height: 0.8;
+}
+.tires p.complectation{
+  clear: both;
+  float: left;
+  font-size: 10px;
+  font-family: "Arial";
+  color: rgb( 0, 0, 0 );
+  line-height: 2;
+}
+/*Выравнивание второй формы*/
+.find_tires{
+  position: relative;
+  float: left;
+  width: 193px;
+  height: 132px;
+  margin-top: -5px;
+  margin-left: 15px;
+  border: 1px solid #9c9c9d;
+  border-radius: 15px;
+  box-shadow: 4px 3px 5px 0px rgba(104, 104, 104, 0.5);
+}
+.find_tires form legend h3{
+  display: inline;
+  margin-left: 12px;
+  margin-right: 0px;
+  color: rgb( 21, 68, 103 );
+  font-size: 12px;
+  font-family: "Arial";
+  font-weight: 800;
+}
+.find_tires form{
+  font-size: 10px;
+  font-family: "Arial";
+  color: rgb( 0, 0, 0 );
+}
+.find_tires .search2{
+  position: absolute;
+  top: 109px;
+  left:117px;
+}
+.find_tires form span{
+  font-size: 8px;
+  font-family: "Arial";
+  color: #77858b;
+}
+.find_tires p.size{
+  float: left;
+  margin-left: 10px;
+  font-size: 10px;
+  font-family: "Arial";
+  color: rgb( 0, 0, 0 );
+  line-height: 4;
+}
+.find_tires select.size{
+  margin-left: 0px;
+  width: 50px;
+  height: 17px;
+  line-height: 17px;
+  position: relative;
+  background: none;
+  border: none;
+  z-index: 100;
+}
+.size1{
+  float: left;
+  border-top: 2px solid #9f9f9f;
+  border-left: 2px solid #9f9f9f;
+  background: white;
+  width: 50px;
+  margin-left: 5px;
+  margin-top: 10px;
+  overflow: hidden;
+  display: inline-block;
+  position: relative;
+}
+.size2{
+  border-top: 2px solid #9f9f9f;
+  border-left: 2px solid #9f9f9f;
+  background: white;
+  width: 50px;
+  margin-left: 5px;
+  margin-top: 10px;
+  overflow: hidden;
+  display: inline-block;
+  position: relative;
+}
+.find_tires .slash{
+  display: inline-block;
+  float: left;
+  margin-top: 10px;
+  margin-right: 0px;
+  margin-left: 5px;
+  font-size: 14px;
+  font-family: "Arial";
+  color: rgb( 0, 0, 0 );
+  line-height:1.5;
+}
+select.radius{
+  margin-left: 0px;
+  width: 44px;
+  height: 17px;
+  line-height: 17px;
+  position: relative;
+  background: none;
+  border: none;
+  z-index: 100;
+}
+.radius{
+  float: left;
+  border-top: 2px solid #9f9f9f;
+  border-left: 2px solid #9f9f9f;
+  border-bottom: 2px solid #9f9f9f;
+  background: white;
+  width: 44px;
+  margin-left: 2px;
+  margin-top: -5px;
+  overflow: hidden;
+  display: inline-block;
+  position: relative;
+}
+.find_tires .radius_text{
+  clear: both;
+  float: left;
+  margin-left: 44px;
+  font-size: 12px;
+  font-family: "Arial";
+  color: rgb( 0, 0, 0 );
+  line-height: 0.5;
+}
+.check_season{
+  clear: both;
+  margin-left: 13px;
+  margin-top: 25px;
+}
+.check_season label {
+ width: 12px;
+ height: 12px;
+ margin-left: 43px;
+ margin-bottom: 0px;
+ margin-top: 0px;
+ display: block;
+ position: relative;
+}
+.check_season p.season{
+  width: 30px;
+  float: left;
+}
+.check_season label p{
+  display: inline-block;
+  margin-left: 16px;
+  margin-top: 1px;
+  font-size: 12px;
+  font-family: "Lucida Sans Unicode";
+  color: rgb( 0, 0, 0 );
+  line-height: 1;
+  font-weight: 500;
+}
+.check_season input[type="checkbox"]{
+  display: none;
+}
+.check_season input[type="checkbox"] + span{
+ position: absolute;
+ left: 0;
+ top: 0;
+ width: 100%;
+ height: 100%;
+ margin-right: 0px;
+ background: url(../img/season_checkbox.jpg) no-repeat;
+ cursor: pointer;
+}
+.check_season input[type="checkbox"]:checked + span{
+ background-position: 0 -12px;
+}
+/*Выравнивание третьей формы*/
+.find_disks .block1{
+  display: block;
+  float: left;
+  position: absolute;
+  margin-left: 16px;
+  margin-top: 0px;
+  width: 150px;
+}
+.find_disks .block2{
+  display: block;
+  float: left;
+  position: absolute;
+  width: 7px;
+  height: 106px;
+  margin-left: 170px;
+  margin-top: -15px;
+}
+.find_disks .block3{
+  display: block;
+  float: left;
+  position: absolute;
+  margin-left: 187px;
+  margin-top: -5px;
+}
+.find_disks form legend h3{
+  display: inline-block;
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-right: 0px;
+  margin-bottom: 8px;
+  color: rgb( 21, 68, 103 );
+  font-size: 12px;
+  font-family: "Arial";
+  font-weight: 800;
+}
+.find_disks{
+  position: relative;
+  float: left;
+  width: 266px;
+  height: 132px;
+  margin-top: -5px;
+  margin-left: 8px;
+  border: 1px solid #9c9c9d;
+  border-radius: 15px;
+  box-shadow: 4px 3px 5px 0px rgba(104, 104, 104, 0.5);
+}
+.find_disks form input.search3{
+  position: absolute;
+  top: 110px;
+  left:195px;
+}
+.find_disks form{
+  font-size: 12px;
+  font-family: "Lucida Sans Unicode";
+  color: rgb( 0, 0, 0 );
+  line-height: 0.5;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+}
+.find_disks form span{
+  font-size: 9px;
+  font-family: "Arial";
+  color: #77858b;
+  letter-spacing: 0.5px;
+}
+.find_disks div.block1 p.diametr{
+  display: block;
+  float: left;
+  margin-top: 5px;
+}
+.find_disks div.block1 p.number{
+  display: block;
+  float: left;
+  margin-top: 0px;
+  font-size: 10px;
+  font-family: "Lucida Sans Unicode";
+  color: rgb( 0, 0, 0 );
+  line-height: 0.9;
+  text-align: left;
+}
+.find_disks div.block1 p.diametr{
+  display: block;
+  float: left;
+  margin-top: 0px;
+  font-size: 10px;
+  font-family: "Lucida Sans Unicode";
+  color: rgb( 0, 0, 0 );
+  line-height: 0.9;
+  text-align: left;
+}
+.find_disks select.diametr{
+  float: left;
+  position: relative;
+  margin-left: 0px;
+  background: none;
+  border: none;
+  z-index: 100;
+  width: 57px;
+  height: 17px;
+}
+.select_diametr{
+  border-top: 2px solid #9f9f9f;
+  border-left: 2px solid #9f9f9f;
+  background: white;
+  width: 57px;
+  margin-left: 87px;
+  margin-top: -17px;
+  overflow: hidden;
+  display: inline-block;
+  position: relative;
+}
+.find_disks select.check_number{
+  float: left;
+  position: relative;
+  margin-left: 0px;
+  background: none;
+  border: none;
+  z-index: 100;
+  width: 50px;
+  height: 17px;
+}
+.select_number{
+  border-top: 2px solid #9f9f9f;
+  border-left: 2px solid #9f9f9f;
+  background: white;
+  width: 50px;
+  margin-left: 87px;
+  margin-top: 13px;
+  overflow: hidden;
+  display: inline-block;
+  position: relative;
+}
+.find_disks select.check_diametr_holes{
+  float: left;
+  position: relative;
+  margin-left: 0px;
+  background: none;
+  border: none;
+  z-index: 100;
+  width: 57px;
+  height: 17px;
+}
+.select_diametr_holes{
+  display: inline-block;
+  border-top: 2px solid #9f9f9f;
+  border-left: 2px solid #9f9f9f;
+  background: white;
+  width: 57px;
+  margin-left: 87px;
+  overflow: hidden;
+  display: inline-block;
+  position: relative;
+  top: -25px;
+}
+.find_disks select.dch{
+  float: left;
+  position: relative;
+  margin-left: 0px;
+  background: none;
+  border: none;
+  z-index: 100;
+  width: 57px;
+  height: 17px;
+}
+.select_dch{
+  border-top: 2px solid #9f9f9f;
+  border-left: 2px solid #9f9f9f;
+  background: white;
+  width: 57px;
+  margin-left: 0px;
+  overflow: hidden;
+  display: inline-block;
+  position: relative;
+}
+.find_disks div.block3 p.dch{
+  margin-top: -8px;
+  margin-bottom: 3px;
+  margin-left: -2px;
+  font-size: 9px;
+  font-family: "Lucida Sans Unicode";
+  color: rgb( 0, 0, 0 );
+  line-height: 0.889;
+  text-align: left;
+}
+.find_disks div.block3 p.dch span{
+  font-size: 8px;
+}
+.find_disks div.block3 p.disk_size{
+  margin-top: 3px;
+  margin-bottom: 3px;
+  margin-left: -2px;
+  font-size: 9px;
+  font-family: "Lucida Sans Unicode";
+  color: rgb( 0, 0, 0 );
+  line-height: 0.889;
+  text-align: left;
+}
+.find_disks div.block3 p.disk_size span{
+  font-size: 8px;
+}
+.find_disks select.disk_size{
+  float: left;
+  position: relative;
+  margin-left: 0px;
+  background: none;
+  border: none;
+  z-index: 100;
+  width: 57px;
+  height: 17px;
+}
+.select_disk_size{
+  border-top: 2px solid #9f9f9f;
+  border-left: 2px solid #9f9f9f;
+  background: white;
+  width: 57px;
+  margin-left: 0px;
+  overflow: hidden;
+  display: inline-block;
+  position: relative;
+}
+.find_disk select option{
+  font-size: 11px;
+  font-family: "Arial";
+  color: rgb( 0, 0, 0 );
+  line-height: 2.545;
+  text-align: left;
+}
+
+aside.left{
+  float: left;
+  margin-top: 18px;
+}
+aside.left a{
+  text-decoration: none;
+}
+aside.left a.catalog{
+  display: inline-block;
+  width: 180px;
+  height: 25px;
+  margin-bottom: 15px;
+  margin-left: -2px;
+  padding-left: 2px;
+  border:1px solid #79878d;
+  box-shadow: 1px 2px 2px 0px rgba(104, 104, 104, 0.5);
+  border-radius: 20px;
+}
+aside.left a.catalog div.icon{
+  width: 20px;
+  height: 20px;
+  float: left;
+  margin-left: 1px;
+  margin-top: 2px;
+  background: url(../img/catalog.png) no-repeat rgb(255, 255, 255);
+  background-position: left;
+}
+aside.left a.catalog p{
+  margin-left: 26px;
+  margin-top: 1px;
+  font-family: "Lucida Sans Unicode";
+  font-size: 12.73px;
+  line-height: 1.5;
+  color: rgb( 17, 65, 101 );
+  text-align: left;
+  line-height: 2;
+}
+aside.left ul a div.icon_ultires{
+  float: left;
+  width: 22px;
+  height: 22px;
+  margin-left: 5px;
+  margin-top: 1px;
+  background: url(../img/ul_marker_03.png) no-repeat rgb(255, 255, 255);
+}
+aside.left ul a.ultires{
+  display: block;
+  width: 149px;
+  height: 25px;
+  margin-top: -2px;
+  padding-left: 0px;
+  border:1px solid #79878d;
+  border-radius: 15px;
+}
+aside.left ul a.ultires p{
+  margin-left: 30px;
+  margin-top: 1px;
+  font-size: 14px;
+  font-family: "Lucida Sans Unicode";
+  color: rgb( 17, 65, 101 );
+  line-height: 1.9;
+  font-weight: 500;
+}
+aside.left ul a div.icon_uldisks{
+  float: left;
+  width: 22px;
+  height: 22px;
+  margin-left: 5px;
+  margin-top: 1px;
+  background: url(../img/ul_marker_03.png) no-repeat rgb(255, 255, 255);
+}
+aside.left ul a.uldisks{
+  display: block;
+  width: 149px;
+  height: 25px;
+  margin-top: 5px;
+  padding-left: 0px;
+  border:1px solid #79878d;
+  border-radius: 15px;
+}
+aside.left ul a.uldisks p{
+  margin-left: 30px;
+  margin-top: 1px;
+  font-size: 14px;
+  font-family: "Lucida Sans Unicode";
+  color: rgb( 17, 65, 101 );
+  line-height: 1.9;
+  font-weight: 500;
+}
+aside.left ul a div.icon_ulbolts{
+  float: left;
+  width: 22px;
+  height: 22px;
+  margin-left: 5px;
+  margin-top: 1px;
+  background: url(../img/ul_marker_03.png) no-repeat rgb(255, 255, 255);
+}
+aside.left ul a.ulbolts{
+  display: block;
+  width: 149px;
+  height: 25px;
+  margin-top: 5px;
+  padding-left: 0px;
+  border:1px solid #79878d;
+  border-radius: 15px;
+}
+aside.left ul a.ulbolts p{
+  margin-left: 30px;
+  margin-top: 1px;
+  font-size: 14px;
+  font-family: "Lucida Sans Unicode";
+  color: rgb( 17, 65, 101 );
+  line-height: 1.9;
+  font-weight: 500;
+}
+
+aside.left ul a{
+  font-size: 14pt;
+  font-family: "Lucida Sans Unicode";
+  color: rgb( 17, 65, 101 );
+  line-height: 1.5;
+}
+aside.left li{
+  margin-left: 35px;
+  margin-top: 5px;
+  margin-right: 10px;
+  line-height: 1.2;
+}
+aside.left li a div.marker{
+  margin-top: 2px;
+  width: 10px;
+  height: 12px;
+  background: url(../img/marker.png);
+  float: left;
+}
+aside.left li a{
+  margin-top: 20px;
+  font-size: 12.73px;
+  font-family: "Lucida Sans Unicode";
+  color: rgb( 17, 65, 101 );
+}
+aside.left li a:hover {
+  text-decoration: underline;
+  font-size: 14px;
+  font-family: "Arial";
+  font-weight: bold;
+  font-style: italic;
+  color: rgb( 17, 65, 101 );
+}
+aside.left li a:hover div.marker{
+background: url(../img/marker_bold.png);
+}
+main{
+  float: left;
+  width: 525px;
+  height: 627px;
+  margin-top: 15px;
+  margin-left: 10px;
+  margin-bottom: 35px;
+  background: rgb(148, 167, 176);
+  background: linear-gradient(0deg, rgb(148, 167, 176) 0%, rgb(228, 230, 231) 100%);
+  /*border: 1px solid #242a3c;*/
+  border-radius: 0px;
+}
+div.goods{
+  margin: 15px;
+  display: block;
+  float: left;
+  width: 140px;
+  height: 175px;
+}
+div.goods_line2{
+  margin-top: 12px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  display: block;
+  float: left;
+  width: 140px;
+  height: 175px;
+}
+div.goods_line3{
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  display: block;
+  float: left;
+  width: 140px;
+  height: 175px;
+}
+figcaption a.brand{
+  display: block;
+  margin-top: 0px;
+  margin-left: 40px;
+  text-decoration: none;
+  color: #206988;
+  font-size: 15px;
+  font-family: "Lucida Sans Unicode";
+  font-weight: 600;
+}
+figcaption a.title{
+  display: block;
+  margin-top: 5px;
+  margin-left: 20px;
+  display: block;
+  text-decoration: none;
+  color: #1f2528;
+  font-size: 13px;
+  font-family: "Lucida Sans Unicode";
+  line-height: 0;
+}
+figcaption a.brand_nokian{
+  display: block;
+  margin-top: 0px;
+  margin-left: 48px;
+  text-decoration: none;
+  color: #206988;
+  font-size: 15px;
+  font-family: "Lucida Sans Unicode";
+  font-weight: 600;
+}
+figcaption a.title_nokian{
+  display: block;
+  margin-top: 5px;
+  margin-left: 27px;
+  display: block;
+  text-decoration: none;
+  color: #1f2528;
+  font-size: 13px;
+  font-family: "Lucida Sans Unicode";
+  line-height: 0;
+}
+figcaption a.brand_hankook{
+  display: block;
+  margin-top: 0px;
+  margin-left: 38px;
+  text-decoration: none;
+  color: #206988;
+  font-size: 15px;
+  font-family: "Lucida Sans Unicode";
+  font-weight: 600;
+  line-height: 1;
+}
+figcaption a.title_hankook{
+  display: block;
+  margin-top: 6px;
+  margin-left: 15px;
+  display: block;
+  text-decoration: none;
+  color: #1f2528;
+  font-size: 12px;
+  font-family: "Lucida Sans Unicode";
+  line-height: 0;
+  font-weight: 500;
+}
+figcaption a.brand_line3{
+  display: block;
+  margin-top: -1px;
+  margin-left: 38px;
+  text-decoration: none;
+  color: #206988;
+  font-size: 15px;
+  font-family: "Lucida Sans Unicode";
+  font-weight: 600;
+}
+figcaption a.title_line3{
+  display: block;
+  margin-top: 5px;
+  margin-left: 20px;
+  display: block;
+  text-decoration: none;
+  color: #1f2528;
+  font-size: 13px;
+  font-family: "Lucida Sans Unicode";
+  line-height: 0;
+}
+figure{
+  width: 137px;
+  height: 126px;
+  margin-top: 8px;
+  margin-left: 7px;
+  border: 1px solid #a4aeb1;
+  background-color: white;
+  border-radius: 7px;
+}
+figure.nokian{
+  width: 137px;
+  height: 126px;
+  margin-top: 8px;
+  margin-left: 4px;
+  border: 1px solid #a4aeb1;
+  background-color: white;
+  border-radius: 7px;
+}
+figure.hankook{
+  width: 137px;
+  height: 126px;
+  margin-top: 7px;
+  margin-left: 2px;
+  border: 1px solid #a4aeb1;
+  background-color: white;
+  border-radius: 7px;
+}
+figure a.product_goodyear{
+  display: block;
+  width: 74px;
+  height: 118px;
+  margin-left: 27px;
+  margin-top: 5px;
+  background-image: url(../img/goodyear.png);
+  background-position: center;
+}
+figure a.product_nokian{
+  display: block;
+  width: 69px;
+  height: 118px;
+  margin-left: 33px;
+  margin-top: 3px;
+  background-image: url(../img/nokian.png);
+  background-position: center;
+}
+figure a.product_nokian_line2{
+  display: block;
+  width: 69px;
+  height: 118px;
+  margin-left: 33px;
+  margin-top: 3px;
+  background-image: url(../img/nokian.png);
+  background-position: center;
+}
+figure a.product_hankook{
+  display: block;
+  width: 79px;
+  height: 118px;
+  margin-left: 27px;
+  margin-top: 3px;
+  background-image: url(../img/hankook.png);
+  background-position: center;
+}
+div.price{
+  display: inline-block;
+  margin-top: 7px;
+  margin-left: 45px;
+  font-size: 16px;
+  font-family: "Arial";
+  color: rgb( 17, 65, 101 );
+  font-weight: bold;
+  font-style: italic;
+  line-height: 0.627;
+}
+div.price_nocian{
+  display: inline-block;
+  margin-top: 7px;
+  margin-left: 38px;
+  font-size: 17px;
+  font-family: "Arial";
+  color: rgb( 17, 65, 101 );
+  font-weight: bolder;
+  font-style: italic;
+  line-height: 0.627;
+}
+div.price_hankook{
+  display: inline-block;
+  margin-top: 7px;
+  margin-left: 35px;
+  font-size: 16px;
+  font-family: "Arial";
+  color: rgb( 17, 65, 101 );
+  font-weight: 800;
+  font-style: italic;
+  line-height: 0.627;
+}
+div.price span{
+  font-size: 12px;
+  font-weight: bold;
+  font-style: italic;
+}
+div.price_nocian span{
+  font-size: 12px;
+  font-weight: bold;
+  font-style: italic;
+}
+div.price_hankook span{
+  font-size: 12px;
+  font-weight: bold;
+  font-style: italic;
+}
+aside.right{
+  float: left;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+aside.right a{
+  text-decoration: none;
+}
+aside.right form.select_brends a.brends{
+  display: inline-block;
+  width: 180px;
+  height: 25px;
+  margin-top: -5px;
+  margin-bottom: 15px;
+  margin-left: -2px;
+  padding-left: 2px;
+  border:1px solid #79878d;
+  box-shadow: 1px 2px 2px 0px rgba(104, 104, 104, 0.5);
+  border-radius: 20px;
+}
+aside.right form.select_brends a.brends div.icon{
+  width: 20px;
+  height: 20px;
+  float: left;
+  margin-left: 2px;
+  margin-top: 3px;
+  background: url(../img/catalog.png) no-repeat rgb(255, 255, 255);
+  background-position: left;
+}
+aside.right form.select_brends a.brends p{
+  margin-left: 28px;
+  margin-top: -1px;
+  font-family: "Lucida Sans Unicode";
+  font-size: 14px;
+  line-height: 1.5;
+  color: rgb( 17, 65, 101 );
+  text-align: left;
+  line-height: 2;
+}
+aside.right ul a div.icon_brends_tires{
+  float: left;
+  width: 22px;
+  height: 22px;
+  margin-left: 5px;
+  margin-top: 1px;
+  background: url(../img/ul_marker_03.png) no-repeat rgb(255, 255, 255);
+}
+aside.right ul a.brends_tires{
+  display: block;
+  width: 135px;
+  height: 25px;
+  margin-top: 0px;
+  margin-left: 13px;
+  padding-left: 0px;
+  border:1px solid #79878d;
+  border-radius: 15px;
+}
+aside.right ul a.brends_tires p{
+  margin-left: 30px;
+  margin-top: 1px;
+  font-size: 14px;
+  font-family: "Lucida Sans Unicode";
+  color: rgb( 17, 65, 101 );
+  line-height: 1.9;
+  font-weight: 500;
+}
+aside.right ul a div.icon_brends_disks{
+  float: left;
+  width: 22px;
+  height: 22px;
+  margin-left: 5px;
+  margin-top: 1px;
+  background: url(../img/ul_marker_03.png) no-repeat rgb(255, 255, 255);
+}
+aside.right ul a.brends_disks{
+  display: block;
+  width: 135px;
+  height: 25px;
+  margin-top: 18px;
+  margin-left: 13px;
+  padding-left: 0px;
+  border:1px solid #79878d;
+  border-radius: 15px;
+}
+aside.right ul a.brends_disks p{
+  margin-left: 30px;
+  margin-top: 1px;
+  font-size: 14px;
+  font-family: "Lucida Sans Unicode";
+  color: rgb( 17, 65, 101 );
+  line-height: 1.9;
+  font-weight: 500;
+}
+aside.right ul a{
+  font-size: 14px;
+  font-family: "Arial";
+  color: rgb( 12, 50, 86 );
+  line-height: 1.5;
+}
+
+.select_brends label {
+ width: 14px; /* Ширина рисунка */
+ height: 14px; /* Высота рисунка */
+ margin-left: 22px;
+ margin-top: 8px;
+ margin-bottom: 10px;
+ display: block; /* Блочный элемент */
+ position: relative; /* Относительное позиционирование */
+}
+.select_brends label p{
+  display: inline-block;
+  margin-left: 27px;
+  font-size: 13px;
+  font-family: "Lucida Sans Unicode";
+  color: rgb( 70, 89, 97 );
+  line-height: 0;
+}
+.select_brends input[type="checkbox"]{
+  display: none;
+}
+.select_brends input[type="checkbox"] + span{
+ position: absolute; /* Абсолютное позиционирование */
+ left: 0;
+ top: 0;
+ width: 100%;
+ height: 100%;
+ margin-right: 10px;
+ background: url(../img/checkbox.jpg) no-repeat; /* Фоновый рисунок */
+ cursor: pointer; /* Курсор в виде руки */
+}
+.select_brends input[type="checkbox"]:checked + span{
+ background-position: 0 -14px;
+}
+input.btn_select{
+  margin: 15px 20px;
+}
+.brand_logo{
+  clear: both;
+  margin-left: 110px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.brand_logo a.brend1 img{
+  display: block;
+  float: left;
+}
+.brand_logo a.brend2 img{
+  display: block;
+  float: left;
+}
+.brand_logo a.brend3 img{
+  display: block;
+  float: left;
+}
+.brand_logo a.brend4 img{
+  display: block;
+  float: left;
+}
+.brand_logo a.brend5 img{
+  display: block;
+  float: left;
+}
+.brand_logo a.brend6 img{
+  display: block;
+  float: left;
+}
+.brand_logo a.brend7 img{
+  display: block;
+  float: left;
+}
+footer{
+  position: absolute;
+  clear: both;
+  width: 910px;
+  height: 100px;
+  margin-top: 23px;
+  margin-bottom: -100px;
+  background-color: #213a4d;
+}
+.footer_nav{
+  display: inline-block;
+  margin-left: 300px;
+  margin-top: 10px;
+}
+footer a{
+  margin-left: 5px;
+  margin-right: 5px;
+  color: #bec6c9;
+  text-decoration: none;
+  font-size: 13.196px;
+  font-family: "Arial";
+  line-height: 1.364;
+  text-align: center;
+}
+footer a:hover{
+  color: rgb( 82, 171, 203 );
+}
+.footer_nav span{
+  display: block;
+  margin-left: 0px;
+  margin-top: 10px;
+  font-size: 10px;
+  font-family: "Arial";
+  color: rgb( 127, 71, 64 );
+  line-height: 1.8;
+  text-align: center;
+}
