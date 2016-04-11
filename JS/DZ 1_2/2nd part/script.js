@@ -15,7 +15,12 @@ var isNameCorrect = false;
 for (i = 0; i < usersNum; i++) {
   if (userName == arrName[i]) {
     isNameCorrect = true;
-    alert("Welcome, " + userName + "!");
+    break;
   }
 }
-console.log(isNameCorrect);
+
+if (isNameCorrect === true) {
+  console.log("Welcome, " + userName + "!");
+} else {
+  console.log("There is no user with name: " + userName);
+}
